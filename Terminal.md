@@ -193,7 +193,7 @@ git push origin :new_nname          # Убираем удалённую ветк
 git push -u origin master           # Синхронизация 
 ```
 
-###Pull
+### Pull
 ```bash
 git pull origin master  # Получить ветку master
 git fetch origin        # Получить ветки 
