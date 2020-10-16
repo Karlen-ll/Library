@@ -134,7 +134,7 @@ git cat-file -p [commit hash]  # Показать коммит
 git remote -v  # Подробное состояние удаленного репозитория
 ```
 
-###Commit:
+### Commit:
 
 ```bash
 git add .                    # Включить в индексацию
@@ -165,7 +165,7 @@ git log -1                        # Отобразить последний ко
 git log --oneline --all --graph   # Отобразить все коммиты в строку
 ```
 
-###Branch
+### Branch
 ```bash
 git checkout .                                      # Откатить
 git checkout [commit_hash] [file_name]
@@ -184,7 +184,7 @@ git merge [branch_name] -m “Слияние”  # Слияние веток
 git branch -d [branch_name]           # Удалить ветоку
 ```
 
-###Push
+### Push
 ```bash
 git push origin master              # Загрузить ветку мастер
 git push origin new_nname:new_name  # Отправить локальную верку в удалённую
@@ -199,13 +199,13 @@ git pull origin master  # Получить ветку master
 git fetch origin        # Получить ветки 
 ```
 
-###Fork
+### Fork
 ```bash
 git remote add [name] [ssh_link]  # Подключиться к репозиторию для обновления
 git pull [name] master            # Обновляем ветку
 ```
 
-###SSH
+### SSH
 ```bash
 ssh -T -i ~/.ssh/private_key git@github.com             # Вход
 
