@@ -200,7 +200,7 @@ git fetch origin        # Получить ветки
 ```
 
 ### Fork
-```bash
+```git
 git remote add [name] [ssh_link]  # Подключиться к репозиторию для обновления
 git pull [name] master            # Обновляем ветку
 ```
