@@ -48,7 +48,7 @@ break               # включить/выключить обработку к�
 cls, clear, reset   # Очистка экрана в командной строке 
 ``` 
 
-###Check and restore:
+### Check and restore:
 ```bash
 chkdsk C: /F /R
 ```
@@ -58,7 +58,7 @@ sfc /scannow
 DISM.exe /Online /Cleanup-image /Restorehealth   
 ```
 
-###Other:
+### Other:
 
 ```bash
 Shutdown /s /t 3600      # Завершение работы через ms
