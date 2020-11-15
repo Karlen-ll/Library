@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <title>Reuse SVG</title>
+</head>
+<body>
+    <div>
+        <h1>Inline SVG</h1>
+        <svg width="100" height="100" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+            <title>Close</title>
+            <defs>
+                <path id="svg_close" d="M7 8.3l5.3 5.3 1.3-1.3L8.3 7l5.3-5.3L12.3.4 7 5.7 1.7.3.3 1.7 5.7 7 .4 12.3l1.3 1.3L7 8.3z" />
+            </defs>
+            <!-- First use -->
+            <use xlink:href="#svg_close"  fill="#bfa069" />
+        </svg>
+    </div>
+
+    <div>
+        <h2>Reuse SVG</h2>
+        <!-- Second use -->
+        <svg width="200" height="200" viewBox="0 0 14 14">
+            <title>Close</title>
+            <use xlink:href="#svg_close" fill="#0959A1" />
+        </svg>
+    </div>
+</body>
+</html>

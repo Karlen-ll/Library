@@ -1,0 +1,19 @@
+<svg width="80" height="70" viewBox="0 0 40 35" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="close" viewBox="0 0 14 14">
+        <path d="M7 8.3l5.3 5.3 1.3-1.3L8.3 7l5.3-5.3L12.3.4 7 5.7 1.7.3.3 1.7 5.7 7 .4 12.3l1.3 1.3L7 8.3z" />
+    </symbol>
+
+    <symbol id="down" viewBox="0 0 14 8">
+        <path d="M7 7.8L.5 1.3l1-1.1L7 5.7 12.5.2l1 1.1z" />
+    </symbol>
+
+    <view id="close-v"    viewBox ="0  0 14 14" />
+    <view id="close2-v"   viewBox ="20 0 14 14" />
+    <view id="down-v"     viewBox ="0  20 14 8" />
+    <view id="down2-v"    viewBox ="20 20 14 8" />
+
+    <use xlink:href="#close"   width="14" height="14" x="0"  y="0"  fill="#0959A1" />
+    <use xlink:href="#close"   width="14" height="14" x="20" y="0"  fill="#bfa069"    />
+    <use xlink:href="#down"    width="14" height="8"  x="0"  y="20" fill="#0959A1" />
+    <use xlink:href="#down"    width="14" height="8"  x="20" y="20" fill="#bfa069"    />
+</svg>
