@@ -83,10 +83,10 @@ SVG это язык XML разметки, схожий с XHTML, который 
     
     
 ## Links
+- [Sara Soueidan about SVG](https://www.sarasoueidan.com/tags/svg/)
 
-- SVG on [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/SVG).
-- [Tutorial](https://developer.mozilla.org/ru/docs/Web/SVG/Tutorial)
-
+* About [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+* [Tutorial](https://developer.mozilla.org/ru/docs/Web/SVG/Tutorial)
 
 - [SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 - [SVG Attribute reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)

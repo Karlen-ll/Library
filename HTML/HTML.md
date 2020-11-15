@@ -248,6 +248,11 @@ ___
 
 
 ### Links
+- [Validator](http://validator.w3.org/)
 
-* [HTML Book](http://htmlbook.ru)
-* [Qhmit](https://www.qhmit.com/html_5/tags/)
+* [TutorialRepublic](https://www.tutorialrepublic.com/html-tutorial/)
+* [HTML5 tags](https://html5please.com/)
+* [Qhmit. HTML5 tags](https://www.qhmit.com/html_5/tags/)
+
+- [HTML Book](http://htmlbook.ru)
+- [HTML5 canvas tutorials](https://www.html5canvastutorials.com/)

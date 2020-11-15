@@ -20,7 +20,6 @@ Notes, patterns and best practics
 - [fontSquirrel generator](https://www.fontsquirrel.com/tools/webfont-generator)
 
 Инструменты:
-- [uiGradients](https://uigradients.com/)
 - [Adobe color](https://color.adobe.com/ru/create/color-wheel)
 - [Coolors](https://coolors.co/generate)
 - [Html color codes](https://htmlcolorcodes.com/color-picker/)
@@ -32,7 +31,3 @@ Notes, patterns and best practics
 - [SVGomg/](https://jakearchibald.github.io/svgomg/)
 - [SvgSprit](https://svgsprit.es/)
 - [url-encoder](https://yoksel.github.io/url-encoder/)
-
-
-CSS анимации:
-- [CSS Animations Generator](https://www.theappguruz.com/tag-tools/web/CSSAnimations/)

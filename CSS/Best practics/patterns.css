@@ -1,0 +1,53 @@
+/* Спрятать элемент.  */
+.visually-hidden {
+	width: 1px;
+	height: 1px;
+	clip: rect(1px,1px,1px,1px);
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    z-index: -1000;
+}
+
+/* Размытие outline */
+.blur-outline {
+    outline: thin dotted;
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Пиксельная графика */
+.pixel {
+    -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-pixelated;
+        image-rendering: pixelated;
+}
+
+/* Обрезать лишний текст и вставить в конце многоточие */
+.short-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Плейсхолдер. Атрибут contenteditable позволяет/запрещает редактировать контент элемента пользователем <pre contenteditable="true"></pre> */
+[contenteditable]:empty:before {
+    display: block;
+    color: #999;
+    content: attr(placeholder);
+}
+
+/* Имитация прозрачного фона */
+.transparent_background {
+	--size-of-squares: 20px;
+	--color-of-squares: 20px; /* x2 */
+
+	background-image:
+			linear-gradient(45deg, var(--color-of-squares) 25%, transparent 25%, transparent 75%, var(--color-of-squares) 75%, var(--color-of-squares)),
+			linear-gradient(45deg, var(--color-of-squares) 25%, transparent 25%, transparent 75%, var(--color-of-squares) 75%, var(--color-of-squares));
+	background-position: 0 0, var(--size-of-squares) var(--size-of-squares);
+	background-size: var(--size-of-squares) var(--size-of-squares);
+}

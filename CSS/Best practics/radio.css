@@ -1,0 +1,84 @@
+/* ---
+
+	<label class="radio">
+		<input  name="r1" type="radio" value="word">
+		Words
+		<span></span>
+	</label>
+
+--- */
+
+.radio {
+	top: 1px;
+	display: inline-block;
+	text-align: left;
+	cursor: pointer;
+	font-size: 1rem;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	position: relative;
+	padding-left: 26px;
+}
+.radio:hover > input:not([disabled]) ~ span,
+.radio > input:focus ~ span {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.radio.disabled {
+	cursor: not-allowed;
+	opacity: .6;
+}
+.radio > input {
+	width: 1px;
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+.radio > span {
+	top: 1px;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 50%;
+	background-color: #ecf0f3;
+	border: 1px solid transparent;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: absolute;
+}
+.radio > span:after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	display: none;
+	border-radius: 100% !important;
+}
+.radio > input:checked ~ span {
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	background-color: #3699ff;
+}
+.radio > input:checked ~ span:after {
+	display: block;
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.radio:hover > input:not(:checked) ~ span,
+.radio > input:focus ~ span {
+	background-color: #d6d6e0;	
+}
+.radio > input:focus:checked ~ span {
+	background-color: #187de4;
+}
