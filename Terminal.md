@@ -119,8 +119,8 @@ git init
 ```
 
 ```bash
-git config --global user.name “Karlen” 
-git config --global user.email “karlen-ll@yandex.ru”
+git config --global user.name "Karlen" 
+git config --global user.email "karlen-ll@yandex.ru"
 
 git config --list  # Отобразить user.name и user.email
 ```
@@ -132,6 +132,9 @@ git cat-file -p [commit hash]  # Показать коммит
 
 ```bash
 git remote -v  # Подробное состояние удаленного репозитория
+
+git remote remove origin      # удалить удалённый репозиторий
+git remote add origin <link>  # привязать новый репозиторий
 ```
 
 ### Commit:
