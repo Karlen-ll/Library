@@ -17,6 +17,7 @@ Insert the necessary `<meta>` tag inside the `<head>` element.
 * [Mobile](#Mobile)
 * [Custom](#Custom)
 
+
 ## General
 Alternative form of setting the charset attribute. A document must not contain both a meta element with an http-equiv attribute in the encoding declaration state and a meta element with the charset attribute present
 ```html
@@ -97,6 +98,9 @@ Recommended:
 Get more [information](https://developer.mozilla.org/ru/docs/Словарь/Viewport).
 
 ### Preload
+`async` - для всех внешних скиптов, которым не нужно знать о HTML (google analytics, tracking scripts). Загружается вместе с html, после своей загрузки приостанавливает загрузку html, выполняется. Затем возобновляется загрузка html.
+
+`defer` - для внешних скриптов, которые не очень важны Загружается вместе с html, ждет пока html загрузится до конца. Потом выполняется.
 
 ```html
 <link rel="stylesheet" type="text/css" href="*.css"/>
