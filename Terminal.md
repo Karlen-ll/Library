@@ -212,8 +212,8 @@ git pull [name] master            # Обновляем ветку
 ```bash
 ssh -T -i ~/.ssh/private_key git@github.com             # Вход
 
-ssh-keygen -t rsa -b 4096 -C “pireverdiev@firecode.ru”  # Установить ключ
-ssh-keygen -t ed25519 -C "email@example.com"
+ssh-keygen -t rsa -b 4096 -C “karlen-ll@yandex.ru”  # Установить ключ
+ssh-keygen -t ed25519 -C "karlen-ll@yandex.ru"
 ```
 
 Config file:
